@@ -59,7 +59,7 @@ const HomePage = () => {
                          />
                          <a
                               href="https://oncyber.io/scriptclub"
-                              className="text-blue-500 hover:underline text-lg font-SpaceMono"
+                              className={`hover:underline text-lg font-SpaceMono text-white`}
                          >
                               Enter the Club
                          </a>
