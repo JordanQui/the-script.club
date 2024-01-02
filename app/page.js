@@ -18,7 +18,7 @@ const HomePage = () => {
      useEffect(() => {
           // Mettez à jour le mode sombre en fonction de l'heure
           const currentHour = currentTime.getHours();
-          setIsDarkMode(currentHour < 8 || currentHour >= 22);
+          setIsDarkMode(currentHour < 8 || currentHour >= 20);
      }, [currentTime]);
 
      return (
@@ -31,7 +31,7 @@ const HomePage = () => {
                     />
                     <a
                          href="https://oncyber.io/scriptclub"
-                         className="text-blue-500 hover:underline text-lg"
+                         className="text-blue-500 hover:underline text-lg font-SpaceMono"
                     >
                          Enter the Club
                     </a>
