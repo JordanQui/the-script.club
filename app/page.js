@@ -25,7 +25,12 @@ const HomePage = () => {
      return (
           <div>
                <Head>
-                    <title>Titre de votre page</title>
+                    <title>The Script Club</title>
+                    <meta
+                         property="og:title"
+                         content="The Script Club"
+                         key="title"
+                    />
                </Head>
                <div className={`min-h-screen ${isDarkMode ? "dark" : "light"}`}>
                     <div className="flex flex-col items-center justify-center min-h-screen">
@@ -59,7 +64,9 @@ const HomePage = () => {
                          />
                          <a
                               href="https://oncyber.io/scriptclub"
-                              className={`hover:underline text-lg font-SpaceMono ${isDarkMode ? "text-black" : "text-white"}`}
+                              className={`hover:underline text-lg font-SpaceMono ${
+                                   isDarkMode ? "text-black" : "text-white"
+                              }`}
                          >
                               Enter the Club
                          </a>
