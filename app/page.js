@@ -32,11 +32,11 @@ const HomePage = () => {
                                         : "/scriptblack .png"
                               }
                               alt="Logo"
-                              className="w-48 h-48 mb-4"
+                              className="w-56 h-56 mb-4"
                          />
                          <a
                               href="https://oncyber.io/scriptclub"
-                              className={`hover:underline text-lg font-SpaceMono ${
+                              className={`tracking-tight hover:underline text-lg font-SpaceMono ${
                                    isDarkMode ? "text-white" : "text-black"
                               }`}
                          >
