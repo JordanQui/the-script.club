@@ -1,6 +1,7 @@
 'use client'
 
 import { useState, useEffect } from "react";
+import Head from "next/head";
 
 const HomePage = () => {
      const [isDarkMode, setIsDarkMode] = useState(false);
@@ -22,19 +23,47 @@ const HomePage = () => {
      }, [currentTime]);
 
      return (
-          <div className={`min-h-screen ${isDarkMode ? "dark" : "light"}`}>
-               <div className="flex flex-col items-center justify-center min-h-screen">
-                    <img
-                         src={isDarkMode ? "/scriptblack.png" : "/scriptwhite.png"}
-                         alt="Logo"
-                         className="w-48 h-48 mb-4"
-                    />
-                    <a
-                         href="https://oncyber.io/scriptclub"
-                         className="text-blue-500 hover:underline text-lg font-SpaceMono"
-                    >
-                         Enter the Club
-                    </a>
+          <div>
+               <Head>
+                    <title>Titre de votre page</title>
+               </Head>
+               <div className={`min-h-screen ${isDarkMode ? "dark" : "light"}`}>
+                    <div className="flex flex-col items-center justify-center min-h-screen">
+                         <img
+                              src={
+                                   isDarkMode
+                                        ? "/scriptblack.png"
+                                        : "/scriptwhite.png"
+                              }
+                              alt="Logo"
+                              className="w-48 h-48 mb-4"
+                         />
+                         <a
+                              href="https://oncyber.io/scriptclub"
+                              className="text-blue-500 hover:underline text-lg font-SpaceMono"
+                         >
+                              Enter the Club
+                         </a>
+                    </div>
+               </div>
+               <div className={`min-h-screen ${isDarkMode ? "dark" : "light"}`}>
+                    <div className="flex flex-col items-center justify-center min-h-screen">
+                         <img
+                              src={
+                                   isDarkMode
+                                        ? "/scriptblack.png"
+                                        : "/scriptwhite.png"
+                              }
+                              alt="Logo"
+                              className="w-48 h-48 mb-4"
+                         />
+                         <a
+                              href="https://oncyber.io/scriptclub"
+                              className="text-blue-500 hover:underline text-lg font-SpaceMono"
+                         >
+                              Enter the Club
+                         </a>
+                    </div>
                </div>
           </div>
      );
