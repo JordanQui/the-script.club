@@ -18,7 +18,7 @@ const HomePage = () => {
      useEffect(() => {
           // Mettez à jour le mode sombre en fonction de l'heure
           const currentHour = currentTime.getHours();
-          setIsDarkMode(currentHour < 8 || currentHour >= 20);
+          setIsDarkMode(currentHour < 8 || currentHour >= 21);
      }, [currentTime]);
 
      return (
