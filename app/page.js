@@ -29,7 +29,7 @@ const HomePage = () => {
                               src={
                                    isDarkMode
                                         ? "/scriptwhite.png"
-                                        : "/scriptblack .png"
+                                        : "/scriptblack.png"
                               }
                               alt="Logo"
                               className="w-56 h-56 mb-4"
