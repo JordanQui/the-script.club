@@ -40,7 +40,7 @@ const HomePage = () => {
                                    isDarkMode ? "text-white" : "text-black"
                               }`}
                          >
-                              Enter the Club
+                              Enter the Club 
                          </a>
                     </div>
                </div>
