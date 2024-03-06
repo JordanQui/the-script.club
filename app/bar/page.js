@@ -117,14 +117,14 @@ const BarPage = () => {
                                         10{" "}
                                    </h1>
                                    <p>&nbsp;</p>
-                                   <a href="https://www.paypal.com/donate?hosted_button_id=ZCY9K9VSHVDAQ"></a>
+                                   <a href="https://www.paypal.com/donate?hosted_button_id=ZCY9K9VSHVDAQ">
                                         <img
                                              src="https://www.makesenserecords.com/bloody.jpeg"
                                              width="500"
                                              height="500"
                                              alt=""
                                         />
-                                   <a/>
+                                   </a>
                               </li>
                          </ul>
                          <ul>
