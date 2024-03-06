@@ -6,7 +6,7 @@ const BarPage = () => {
                          <img
                               src="https://www.makesenserecords.com/backstagecontent/SCRIPT_LOGO_NOIR.png"
                               alt="script-club logo"
-                              className="w-15 m-auto"
+                              className="w-24 m-auto"
                          />
                     </div>
                     <div className="text-center">
