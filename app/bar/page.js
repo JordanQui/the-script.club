@@ -1,6 +1,6 @@
 const BarPage = () => {
      return (
-          <div className="bg-white text-black">
+          <div className="bg-white text-black text-xl">
                <div className="flex flex-col items-center">
                     <div>
                          <img
@@ -94,12 +94,14 @@ const BarPage = () => {
                          <ul>
                               <li>
                                    <p>
-                                        <img
-                                             src="https://www.makesenserecords.com/hemingwav.jpeg"
-                                             width="500"
-                                             height="500"
-                                             alt=""
-                                        />
+                                        <a href="https://www.paypal.com/donate?hosted_button_id=ZCY9K9VSHVDAQ">
+                                             <img
+                                                  src="https://www.makesenserecords.com/hemingwav.jpeg"
+                                                  width="500"
+                                                  height="500"
+                                                  alt=""
+                                             />
+                                        </a>
                                    </p>
                               </li>
                               <li>
@@ -115,12 +117,14 @@ const BarPage = () => {
                                         10{" "}
                                    </h1>
                                    <p>&nbsp;</p>
-                                   <img
-                                        src="https://www.makesenserecords.com/bloody.jpeg"
-                                        width="500"
-                                        height="500"
-                                        alt=""
-                                   />
+                                   <a href="https://www.paypal.com/donate?hosted_button_id=ZCY9K9VSHVDAQ"></a>
+                                        <img
+                                             src="https://www.makesenserecords.com/bloody.jpeg"
+                                             width="500"
+                                             height="500"
+                                             alt=""
+                                        />
+                                   <a/>
                               </li>
                          </ul>
                          <ul>
@@ -138,12 +142,14 @@ const BarPage = () => {
                                    </h1>
                                    <p>&nbsp;</p>
                                    <p>
-                                        <img
-                                             src="https://www.makesenserecords.com/sexbits.jpeg"
-                                             width="500"
-                                             height="500"
-                                             alt=""
-                                        />
+                                        <a href="https://www.paypal.com/donate?hosted_button_id=ZCY9K9VSHVDAQ"></a>
+                                             <img
+                                                  src="https://www.makesenserecords.com/sexbits.jpeg"
+                                                  width="500"
+                                                  height="500"
+                                                  alt=""
+                                             />
+                                        </a>
                                    </p>
                               </li>
                               <li>
