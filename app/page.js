@@ -35,7 +35,7 @@ const HomePage = () => {
                               className="w-56 h-56 mb-4"
                          />
                          <a
-                              href="/space"
+                              href="https://oncyber.io/scriptclub?coords=-22.00x2.73x56.11x1.70"
                               className={`tracking-tight hover:underline text-lg font-SpaceMono ${
                                    isDarkMode ? "text-white" : "text-black"
                               }`}
